@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 url = 'http://servicos2.sjc.sp.gov.br/servicos/horario-e-itinerario.aspx?acao=p&opcao=2&txt='
 r = requests.get(url)
 
